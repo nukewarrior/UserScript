@@ -15,6 +15,8 @@
 
     console.log("script start");
 
+    var main_container = document.getElementsByClassName("container")[2]
+
     var h3_block = document.querySelectorAll("h3")[0];
     h3_block.parentNode.removeChild(h3_block);
 
@@ -28,7 +30,8 @@
     search_text.setAttribute("size", "80");
 
     var search_box = document.getElementsByClassName("input-group")[1];
-    search_box.style.left = (document.documentElement.clientWidth - search_box.clientWidth) / 2 + 'px';
+    // search_box.style.left = (document.documentElement.clientWidth - search_box.clientWidth) / 2 + 'px';
+    search_box.style.left = (main_container.clientWidth - search_box.clientWidth) / 2 + 'px';
 
     //var page_bar = document.getElementsByClassName("text-center hidden-xs")[1];
     //page_bar.style.left=(document.documentElement.clientWidth-page_bar.clientWidth)/2+'px';
