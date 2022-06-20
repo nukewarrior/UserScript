@@ -2,6 +2,7 @@
 // @name         btso
 // @namespace    http://tampermonkey.net/
 // @version      0.1
+// @updateURL    https://raw.githubusercontent.com/nukewarrior/UserScript/master/btso/btso.js      
 // @description  try to take over the world!
 // @author       Yang
 // @match        https://btsow.bar/*
